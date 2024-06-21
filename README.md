@@ -4,6 +4,7 @@
 Un CRUD es un acrónimo que significa Crear, Leer, Actualizar y Borrar (Create, Read, Update, Delete). Es una de las operaciones básicas para la gestión de datos en aplicaciones web.
 
 **Introducción**
+<br/>
 Hoy comparto una forma sencilla para hacer un CRUD con Spring, usando el tipo de base de datos H2.
 
 **Tecnologías**
