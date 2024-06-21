@@ -5,7 +5,9 @@ Un CRUD es un acrónimo que significa Crear, Leer, Actualizar y Borrar (Create, 
 
 **Introducción**
 <br/>
-Hoy comparto una forma sencilla para hacer un CRUD con Spring, usando el tipo de base de datos H2.
+Hoy quiero compartir contigo una manera sencilla y práctica de implementar un CRUD (Crear, Leer, Actualizar, Borrar) utilizando Spring Boot, uno de los frameworks más populares para el desarrollo de aplicaciones Java. En este tutorial, vamos a usar la base de datos H2, una base de datos en memoria que es liviana y fácil de configurar, ideal para proyectos de demostración y pruebas. 
+
+A lo largo de este tutorial, te guiaré paso a paso en la configuración del proyecto, la creación de modelos, repositorios, servicios y controladores, y finalmente, en la configuración de vistas utilizando Thymeleaf. Al final, tendrás una aplicación completa y funcional que te permitirá gestionar una lista de libros. ¡Vamos a ello!
 
 **Tecnologías**
 - Spring Boot
