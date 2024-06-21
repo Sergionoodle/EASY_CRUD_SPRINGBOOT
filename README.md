@@ -38,12 +38,12 @@ Lo primero será configurar un proyecto Spring. Usaremos Spring Initializr ([lin
 
 Lo siguiente será apuntar a la base de datos, usando el archivo `application.properties` localizado en `src/main/resources/`. Añade la siguiente configuración:
 
->spring.datasource.url=jdbc:h2:mem:testdb
->spring.datasource.driverClassName=org.h2.Driver
->spring.datasource.username=sa
->spring.datasource.password=password
->spring.h2.console.enabled=true
->spring.jpa.hibernate.ddl-auto=update`
+>-spring.datasource.url=jdbc:h2:mem:testdb
+>-spring.datasource.driverClassName=org.h2.Driver
+>-spring.datasource.username=sa
+>-spring.datasource.password=password
+>-spring.h2.console.enabled=true
+>-spring.jpa.hibernate.ddl-auto=update`
 
 Esta configuración indica que estamos utilizando una base de datos H2 en memoria (mem:testdb), especifica el controlador de la base de datos, el nombre de usuario y la contraseña. También habilita la consola H2 para facilitar el acceso a la base de datos y configura Hibernate para que actualice automáticamente el esquema de la base de datos según las entidades definidas.
 
